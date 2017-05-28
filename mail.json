@@ -14,11 +14,11 @@
             "mailer-daemon@kundenserver.de"
         ]
     },
-    "aktive@ksg-ilmenau.de": {
+    "example@ksg-ilmenau.de": {
         "options": {
             "type": "closed",
-            "admin": "andreas@ksg-ilmenau.de",
-            "subject": "KSG Aktive"
+            "admin": "example@ksg-ilmenau.de",
+            "subject": "KSG Example"
         },
         "defekteMailadresse": [
             "example@example.com"
