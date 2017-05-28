@@ -1,0 +1,41 @@
+{
+    "config": {
+        "IMAP": {
+            "HOST": "imap.1und1.de",
+            "USERNAME": "user",
+            "PASSWORD": "pass"
+        },
+        "SMTP": {
+            "HOST": "smtp.1und1.de",
+            "USERNAME": "user",
+            "PASSWORD": "pass"
+        },
+        "SPAM": [
+            "mailer-daemon@kundenserver.de"
+        ]
+    },
+    "aktive@ksg-ilmenau.de": {
+        "options": {
+            "type": "closed",
+            "admin": "andreas@ksg-ilmenau.de",
+            "subject": "KSG Aktive"
+        },
+        "defekteMailadresse": [
+            "example@example.com"
+        ],
+        "members": [
+            "member1@example.com",
+            "member2@example.com",
+            "member3@example.com"
+        ],
+        "alias": [
+            "member1@example.org",
+            "member2@example.org",
+            "member2@example.net",
+            "member2@example.edu"
+        ],
+        "spam": [
+            "spam@example.com"
+        ]
+    }
+}
